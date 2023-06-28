@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+
+  "permission" : {
+    "scope.userLocation" : {
+      "desc" : "学习开车，需要你的定位"
+    }
+  },
+  "requiredPrivateInfos" : [ "getLocation" ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "租一辆车",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
